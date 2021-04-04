@@ -2,13 +2,13 @@
 Python programming
 
 Num = int(input("Enter a value:"))  
-Temp = num  
+Temp = Num  
 Rev = 0  
-while(num > 0):  
-    dig = num % 10  
-    revrev = rev * 10 + dig  
-    numnum = num // 10  
-if(temp == rev):  
+while(Num > 0):  
+    dig = Num % 10  
+    Rev = Rev * 10 + dig  
+    Num = Num // 10  
+if(Temp == Rev):  
     print("This value is a palindrome number!")  
 else:  
     print("This value is not a palindrome number!")  
